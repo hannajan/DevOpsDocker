@@ -1,0 +1,7 @@
+for backend:
+(base) hannajantunen@Hanna-MacBook-Air-2 example-backend % docker build . -t example-backend
+(base) hannajantunen@Hanna-MacBook-Air-2 example-backend % docker run -p 8080:8080 example-backend
+
+for frontend:
+(base) hannajantunen@Hanna-MacBook-Air-2 example-frontend % docker build . -t example-frontend
+(base) hannajantunen@Hanna-MacBook-Air-2 example-frontend % docker run -p 5001:5001 example-frontend

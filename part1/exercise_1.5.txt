@@ -1,0 +1,12 @@
+REPOSITORY                          TAG       IMAGE ID       CREATED         SIZE
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   13 months ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   13 months ago   15.7MB
+
+commands used:
+(base) hannajantunen@Hanna-MacBook-Air-2 ~ % docker run -it -d devopsdockeruh/simple-web-service:alpine
+(base) hannajantunen@Hanna-MacBook-Air-2 ~ % docker container ls
+CONTAINER ID   IMAGE                                      COMMAND                 CREATED          STATUS          PORTS     NAMES
+6165dba5bc03   devopsdockeruh/simple-web-service:alpine   "/usr/src/app/server"   14 seconds ago   Up 13 seconds             sharp_cori
+(base) hannajantunen@Hanna-MacBook-Air-2 ~ % docker exec -it sharp_cori sh
+/usr/src/app # tail -f ./text.log
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'

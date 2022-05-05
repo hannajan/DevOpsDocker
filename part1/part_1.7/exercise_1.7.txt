@@ -1,0 +1,5 @@
+to build image:
+docker build . -t web-server
+
+to run container:
+docker run web-server

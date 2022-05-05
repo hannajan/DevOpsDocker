@@ -1,0 +1,16 @@
+(base) hannajantunen@Hanna-MacBook-Air-2 DevOps with Docker % docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+(base) hannajantunen@Hanna-MacBook-Air-2 DevOps with Docker % docker images
+REPOSITORY            TAG       IMAGE ID       CREATED             SIZE
+myapp-frontend-prod   latest    d7b9306ef98b   About an hour ago   1.12GB
+myapp-backend-prod    latest    a4aa79ee2ea7   About an hour ago   885MB
+myapp-frontend        latest    47af4b40905f   About an hour ago   1.11GB
+myapp-backend         latest    11832cb880bc   2 hours ago         885MB
+todo-backend          latest    d2c7af1a0079   22 hours ago        1.19GB
+todo-frontend         latest    5153f3937179   22 hours ago        22.5MB
+todo-backend-dev      latest    570f3bf724fa   2 days ago          1.19GB
+todo-front-dev        latest    2904165072f1   4 days ago          1.05GB
+redis                 latest    5536f64dd672   6 days ago          111MB
+node                  16        5ee10edfbd9c   6 days ago          853MB
+mongo                 latest    8545a6005ade   7 days ago          665MB
+nginx                 latest    d17025d71df5   2 weeks ago         134MB

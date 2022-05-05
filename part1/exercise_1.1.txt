@@ -1,0 +1,5 @@
+(base) hannajantunen@Hanna-MacBook-Air-2 ~ % docker ps -a
+CONTAINER ID   IMAGE                 COMMAND                  CREATED              STATUS                      PORTS     NAMES
+479d1c8ce01e   nginx                 "/docker-entrypoint.…"   About a minute ago   Exited (0) 3 seconds ago              clever_brown
+dd8439a40439   nginx                 "/docker-entrypoint.…"   About a minute ago   Exited (0) 3 seconds ago              romantic_franklin
+73ec112924b3   nginx                 "/docker-entrypoint.…"   About a minute ago   Up About a minute           80/tcp    practical_roentgen

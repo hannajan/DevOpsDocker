@@ -1,0 +1,1 @@
+(base) hannajantunen@Hanna-MacBook-Air-2 ~ % docker run -p 127.0.0.1:3000:8080 web-server

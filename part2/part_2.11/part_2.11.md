@@ -1,0 +1,2 @@
+I've created a develpoment environment for one of my projects.
+First I have installed nodemon as a dev dependency. I created a Dockerfile and a docker-compose.yml to containarize the development environment.

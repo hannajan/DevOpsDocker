@@ -1,0 +1,1 @@
+[link to exercise 3.2](https://github.com/hannajan/publish_dockerhub)
